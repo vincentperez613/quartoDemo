@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: demosite
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+  
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true

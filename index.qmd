@@ -1,0 +1,28 @@
+---
+title: demo
+format:
+    html:
+        code-fold: false
+jupyter: python3
+---
+
+## demostration of code
+
+```{python}
+#| label: fig-lineas
+#| fig-cap: "Seno y coseno"
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0,10,50)
+y = np.linspace(10,0,50)
+plt.plot(x, label="seno")
+plt.plot(y, label="coseno")
+
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("Funciones trigonometricas")
+plt.legend()
+plt.show()
+```
+
